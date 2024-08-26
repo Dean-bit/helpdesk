@@ -139,7 +139,7 @@ echo UTC::usertimezone(date_format($time, 'd/m/Y H:i:s'));
 
 ?>
                     <table class="table table-hover">
-                        @if($user_phone != null)<tr><td><b>Phone:</b></td>          <td>{{$user_phone->mobile}}</td></tr>@endif
+                        @if($user_phone != null)<tr><td><b>Phone:</b></td> </tr>@endif
                           <tr><td><b>Status:</b></td>       <div><?php $status = App\Model\Ticket\Ticket_Status::where('id', '=', $ticket->status)->first();?><td title="{{$status->properties}}">{{$status->name}}</td></div></tr>
                         <tr><td><b>Help Topic:</b></td>     <?php $help_topic = App\Model\Manage\Help_topic::where('id', '=', $ticket->help_topic_id)->first();?><td title="{{$help_topic->topic}}">{{$help_topic->topic}}</td></tr>
                         <tr><td><b>Last Message:</b></td>   <td>{{$username}}</td></tr>

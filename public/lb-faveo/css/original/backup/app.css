@@ -20,11 +20,11 @@ body {
 }
 
 a {
-	color: #009aba;
+	color: #201444;
 }
 a:focus,
 a:hover {
-	color: #009aba;
+	color: #201444;
 }
 
 img {
@@ -71,8 +71,8 @@ h6,
 	font-weight: 600;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #009aba;
-	border-color: #00c0ef;
+	background-color: #201444;
+	border-color: #201444;
 }
 .btn-custom:hover,
 .btn-custom:focus,

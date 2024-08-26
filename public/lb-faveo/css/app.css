@@ -20,11 +20,11 @@ body {
 }
 
 a {
-	color: #009aba;
+	color: #201444;
 }
 a:focus,
 a:hover {
-	color: #009aba;
+	color: #201444;
 }
 
 img {
@@ -522,7 +522,7 @@ ol.with-line-border > li {
 }
 .site-hero {
 	padding: 35px 0;
-	background: #009aba;
+	background: #201444;
 }
 .site-main {
 	margin-top: -35px;
@@ -597,7 +597,7 @@ ol.with-line-border > li {
 .site-navigation li > a:hover,
 .site-navigation li > a:focus {
 	background: none !important;
-	color: #009aba !important;
+	color: #201444 !important;
 }
 .site-navigation > ul > li > a {
 	padding-top: 12px;

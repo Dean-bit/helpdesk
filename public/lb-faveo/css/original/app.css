@@ -20,11 +20,11 @@ body {
 }
 
 a {
-	color: #009aba;
+	color: #201444;
 }
 a:focus,
 a:hover {
-	color: #009aba;
+	color: #201444;
 }
 
 img {
@@ -71,7 +71,7 @@ h6,
 	font-weight: 600;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #009aba;
+	background-color: #201444;
 	border-color: #00c0ef;
 }
 .btn-custom:hover,
@@ -80,7 +80,7 @@ h6,
 .btn-custom.active,
 .open .dropdown-toggle.btn-custom {
 	color: #fff;
-	background-color: #00c0ef;
+	background-color: #201444;
 	border-color: #00c0ef;
 }
 .btn-custom:active,
@@ -440,7 +440,7 @@ ol.with-line-border > li {
 	transition: all 0.6s ease-in-out;
 }
 .banner-wrapper:hover {
-	border-color: #009aba;
+	border-color: #201444;
 	background: rgba(0, 0, 0, 0.0185);
 }
 .banner-title,
